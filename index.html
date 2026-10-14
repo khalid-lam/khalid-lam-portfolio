@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khalid Lamrini</title>
+  <meta name="description" content="Khalid Lamrini: M2 MVA student at ENS Paris-Saclay and École Polytechnique graduate, working in machine learning and biomedical informatics.">
+  <meta name="color-scheme" content="light">
+
+  <meta property="og:title" content="Khalid Lamrini">
+  <meta property="og:description" content="M2 MVA student at ENS Paris-Saclay and École Polytechnique graduate. Projects and background.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://khalid-lam.github.io/">
+
+  <link rel="icon" href="assets/img/icon.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="assets/img/icon.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#top">Skip to content</a>
+
+  <canvas class="network-bg" id="network-bg" aria-hidden="true"></canvas>
+
+  <nav class="nav" aria-label="Main">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#top">Khalid Lamrini</a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="visually-hidden">Menu</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#top">Home</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#background">Background</a></li>
+        </ul>
+        <a class="nav__link nav__link--contact" href="mailto:lamrini.khalid3@gmail.com">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Présentation -->
+    <header class="hero" id="top">
+      <div class="container">
+        <div class="hero__photo">
+          <span aria-hidden="true">KL</span>
+          <img src="assets/img/photo.jpg" alt="Portrait of Khalid Lamrini" onerror="this.remove()">
+        </div>
+
+        <h1 class="hero__name">Khalid Lamrini</h1>
+
+        <p class="hero__intro">
+          <span>Research · ML · Healthcare</span>
+          <span>MVA Master's student • École Polytechnique graduate (X23)</span>
+          <span>Open to research internships starting from April 2027</span>
+        </p>
+
+        <div class="hero__actions">
+          <a class="button button--primary" href="assets/cv/Khalid_LAMRINI_CV.pdf" download>
+            <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 16.5 6.5 11l1.4-1.4 3.1 3.1V3h2v9.7l3.1-3.1 1.4 1.4L12 16.5zM4 19h16v2H4v-2z"/>
+            </svg>
+            Download CV
+          </a>
+          <a class="button button--outline"
+             href="https://github.com/khalid-lam"
+             target="_blank"
+             rel="noopener noreferrer">
+            <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/>
+            </svg>
+            <span>GitHub</span>
+            <span class="visually-hidden"> (opens in a new tab)</span>
+          </a>
+          <a class="button button--outline"
+             href="https://www.linkedin.com/in/khalid-lamrini/"
+             target="_blank"
+             rel="noopener noreferrer">
+            <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+            </svg>
+            <span>LinkedIn</span>
+            <span class="visually-hidden"> (opens in a new tab)</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Projets -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section__title" id="projects-title">Projects</h2>
+
+        <div class="projects">
+          <article class="card reveal">
+            <header class="card__header">
+              <h3 class="card__title">Psychiatric Hospitalization Risk Prediction</h3>
+              <p class="card__subtitle">Visiting Researcher · Columbia University, New York</p>
+            </header>
+            <p class="card__desc">Investigated psychiatric hospitalization risk using All of Us(AoU) genomic data. Built cloud QC pipelines with Hail and PLINK to process large-scale variant data. Collaborating with psychiatrists, I aggregated multi-trait GWAS statistics into a shared-liability linear baseline, then benchmarked non-linear models. Designed a custom-loss VAE to extract genomic embeddings across ancestrally diverse populations.</p>
+            <div class="card__footer">
+              <span class="card__note">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 9V7a5 5 0 0 0-10 0v2H5v12h14V9h-2zm-8 0V7a3 3 0 0 1 6 0v2H9z"/></svg>
+                <span>Private repository</span>
+              </span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <header class="card__header">
+              <h3 class="card__title">Computer vision for food nutrition estimation</h3>
+              <p class="card__subtitle">Academic Project · École Polytechnique, Paris</p>
+            </header>
+            <p class="card__desc">Multimodal GenAI project using the Nutrition5k dataset, I compared architectures ranging from simple vision-to-regression baselines to structured approaches that leverage prior knowledge about the relationship between ingredients and nutritional values. Using a lightweight Vision Transformer (DeiT-Tiny), I explored fine-tuning strategies including frozen backbones, LoRA, and full end-to-end training.</p>
+            <div class="card__footer">
+              <a class="button button--outline button--small" href="https://github.com/khalid-lam/Nutrition-Guesser"  target="_blank" rel="noopener noreferrer">
+                <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+                GitHub
+                <span class="visually-hidden"> (opens in a new tab)</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <header class="card__header">
+              <h3 class="card__title">Resolution of Fisher-KPP type reaction diffusion equations through learning-based methods</h3>
+              <p class="card__subtitle">Research Project · École Polytechnique, Paris</p>
+            </header>
+            <p class="card__desc">Under the supervision of Ziad Kobeissi, I implemented Physics-Informed Neural Networks (PINNs) in PyTorch to solve nonlinear reaction-diffusion equations like Fisher-KPP. By coding and benchmarking both residual-based and energy-based weak formulations, I analyzed the optimization bottlenecks caused by their non-convex loss landscapes. The core empirical finding is that increasing MLP depth acts primarily as an optimization mechanism, driving down PDE residuals faster, rather than simply providing extra representational capacity.</p>
+            <div class="card__footer">
+              <a class="button button--outline button--small" href="https://github.com/khalid-lam/EA_Physics-Informed_Learning_for_Reaction_Diffusion_Equations" target="_blank" rel="noopener noreferrer">
+                <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+                GitHub
+                <span class="visually-hidden"> (opens in a new tab)</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <header class="card__header">
+              <h3 class="card__title">Outlier detection algorithm in the coating line process</h3>
+              <p class="card__subtitle">Data Science Internship · Saint-Gobain Glass, Paris</p>
+            </header>
+            <p class="card__desc">Built a pilot outlier detection tool for the coating line process, covering the full pipeline from data cleaning and preprocessing to correlation analysis, statistical modeling, and validation. Designed an IQR-based framework to isolate anomalies across material families and compartments, uncovered multivariate dependencies with physical process controls, and benchmarked ML regression models.</p>
+            <div class="card__footer">
+              <span class="card__note">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 9V7a5 5 0 0 0-10 0v2H5v12h14V9h-2zm-8 0V7a3 3 0 0 1 6 0v2H9z"/></svg>
+                <span>Private repository</span>
+              </span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <header class="card__header">
+              <h3 class="card__title">Elo Score Web App</h3>
+              <p class="card__subtitle">Academic Project · École Polytechnique, Paris</p>
+            </header>
+            <p class="card__desc">Developed a web application to calculate Elo scores for competitive student games, including account 
+management and server-side logic.</p>
+            <div class="card__footer">
+              <a class="button button--outline button--small" href="https://github.com/khalid-lam/my-elo" target="_blank" rel="noopener noreferrer">
+                <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+                GitHub
+                <span class="visually-hidden"> (opens in a new tab)</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="background" aria-labelledby="background-title">
+      <div class="container">
+        <h2 class="section__title" id="background-title">Background</h2>
+
+        <div class="background-grid">
+          <div class="reveal">
+            <h3 class="subsection__title">Professional experience</h3>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <span class="timeline__date">Apr 2026 – Aug 2026</span>
+                <h4 class="timeline__title"><span>Visiting Researcher</span> · <span class="timeline__org">Columbia University, Biomedical Informatics Lab, New York</span></h4>
+                <p class="timeline__desc">Conducted research under Prof. Shalmali Joshi on psychiatric hospitalization risk prediction using All of Us genomic data, building Hail and PLINK data pipelines and evaluating model sensitivity across populations. Also developed a reduced Hodgkin–Huxley model for neuron conductance prediction and evaluated transcriptomics-based autoencoders against type-only baselines.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">Jun 2025 – Aug 2025</span>
+                <h4 class="timeline__title"><span>Data Scientist Intern</span> · <span class="timeline__org">Saint-Gobain Glass France, Paris</span></h4>
+                <p class="timeline__desc">Built a pilot outlier-detection tool for a glass coating line, from data cleaning and preprocessing through correlation analysis, statistical modeling, and validation. Configured and deployed Databricks Genie spaces to give teams natural-language access to databases and support adoption.</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="reveal">
+            <h3 class="subsection__title">Education</h3>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <span class="timeline__date">Sept 2026 – Apr 2027</span>
+                <h4 class="timeline__title"><span>M2 MVA (Mathematics, Vision and Learning)</span> · <span class="timeline__org">ENS Paris-Saclay, Paris</span></h4>
+                <p class="timeline__desc">Research master's in mathematics for machine learning and computer vision.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">Sept 2023 – Apr 2026</span>
+                <h4 class="timeline__title"><span>Master’s Degree in Engineering</span> · <span class="timeline__org">École Polytechnique, Paris</span></h4>
+                <p class="timeline__desc">AI track: Coursework in applied mathematics, machine learning, deep learning, stochastic modeling, optimization, signal processing, and algorithms.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">Sept 2021 – Jun 2023</span>
+                <h4 class="timeline__title"><span>Exam Preparation Classes (CPGE)</span> · <span class="timeline__org">Collège Stanislas, Paris</span></h4>
+                <p class="timeline__desc">Intensive coursework in mathematics, physics, and chemistry, preparing for competitive entrance exams to leading engineering schools and universities.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <dl class="skills reveal">
+          <div class="skills__row">
+            <dt>Programming</dt>
+            <dd>Python, PyTorch, Java, SQL, HTML</dd>
+          </div>
+          <div class="skills__row">
+            <dt>Languages</dt>
+            <dd>English (Fluent), French (Native), Arabic (Native)</dd>
+          </div>
+        </dl>
+
+        <h3 class="subsection__title interests__title">Interests</h3>
+        <ul class="interests reveal">
+          <li class="interest" tabindex="0">
+            <svg class="interest__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6c3.5 3.5 3.5 9.3 0 12.8M18.4 5.6c-3.5 3.5-3.5 9.3 0 12.8"/></svg>
+            <span class="interest__label">Tennis</span>
+          </li>
+          <li class="interest" tabindex="0">
+            <svg class="interest__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 8.5 15.3 10.9 14 14.8H10L8.7 10.9zM12 8.5V3.4m3.3 7.5 4.8-1.6M14 14.8l2.8 4.3M10 14.8l-2.8 4.3m1.5-8.5L3.9 9.3"/></svg>
+            <span class="interest__label">Football</span>
+          </li>
+          <li class="interest" tabindex="0">
+            <svg class="interest__icon" viewBox="38 55 177 130" fill="none" stroke="currentColor" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="164" cy="72" r="11"/><path d="M80 79 115 66 149 89 172 120 207 119M149 89 106 123 46 177M106 123 142 152 95 168"/></svg>
+            <span class="interest__label">Running</span>
+          </li>
+          <li class="interest" tabindex="0">
+            <svg class="interest__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 13a4 4 0 0 1 1-7.9A5.5 5.5 0 0 1 16.4 4a4.5 4.5 0 0 1 2.1 8.8V19H5zM5 16h13.5M9 19v2m5-2v2"/></svg>
+            <span class="interest__label">Cooking</span>
+          </li>
+          <li class="interest" tabindex="0">
+            <svg class="interest__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7C9 4.5 5.5 4 3 5v15c3-1 6.5-.5 9 2 2.5-2.5 6-3 9-2V5c-2.5-1-6-.5-9 2zM12 7v15M6 8c1.5-.3 3-.1 4 .5m8-.5c-1.5-.3-3-.1-4 .5"/></svg>
+            <span class="interest__label">Reading</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 Khalid Lamrini</span>
+      <div class="footer__links">
+        <a href="mailto:lamrini.khalid3@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/khalid-lamrini/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/background.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
